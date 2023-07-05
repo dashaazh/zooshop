@@ -1,0 +1,145 @@
+<html>
+    <header><nav>
+<a href="">Іграшки</a>
+<a href="">корми</a>
+<a href="">головна</a>
+<a class="contacts" href="">будиночки</a>
+</nav></header>
+<body>
+<main>
+    <h2 id="catalog">будиночки</h2>
+            <section class="catalog">
+                <article class="product">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFVxFo1lDnRBVDRXRun9V_teWahWvRU0Nzfcb62Ipbww&s"> 
+   <input type="radio">
+   <p>хатка пластикова</p>
+   <p>800грн</p>
+
+                </article>
+                <article class="product">
+                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGm6c96xQ8yy6ZjlsIFoRjwSmi7rck57hErnOlCLSd&s"><input type="radio">
+   
+<p>3х етажна хатка(з підвисною лежанкою)</p>
+<p>1000грн</p>
+                </article>
+                <article class="product">
+                  <img src="https://nedorogo.in.ua/image/cache/catalog/foto_tovara/2DRAPAK-dla-KOTA-DOMEK-BUDKA-legowisko-ZABAWKA(1)-1200x800.jpg"><input type="radio">
+                  <p>хатка трикутник (кохтеточка)</p>
+                  <p>800грн</p>
+                </article>
+                <article class="product">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2NuKsl2REA11HVQOsl1OLh10GqxbbI-kSEOSTaY-b&s"><input type="radio">
+                 <p>4х етажний дім(сказати шо я в шоці нічого не сказати)</p>
+   <p>2000грн</p>                     
+                </article>
+                <article class="product">
+                 <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0DA-VbzznMVTLq1iZwjVqtkUQ1U48Whf3Py8U_FDm&s">
+   <input type="radio">
+   <p>дім дуб</p>
+   <p>1400грн</p>                
+                </article>
+                <article class="product">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjCstGwxD1JNpmA5XkoNIKEH2KMV356MQtatrhnbrE&s">
+   <input type="radio">
+   <p>2х етажна хатка</p>
+   <p>1300грн</p>         
+                </article>
+            </section>
+             <footer>
+            <p>Ел. пошта:</p>
+            <p>Телефон:+93 752 53 52</p>
+        </footer>
+</main>
+</body>
+<style>
+  body {
+    font-family: sans-serif;
+    background-color: #2B176B;
+}
+
+#catalog{
+  text-align: center;
+  color: #f54ed9;
+}
+
+img{
+ max-width: 150px;
+ min-height:150px;
+}
+
+.contacts {
+background-color: white;
+color: #FF4141;
+padding: 10px 25px;
+border-radius: 10px;
+max-width: 100px;
+}
+
+nav{
+margin: 20px 0px;
+padding: 20px 0px;
+
+text-align: center;
+background-image: linear-gradient(to right, #FF7F41	, #F341FF);
+}
+
+nav a {
+color: white;
+text-decoration: none;
+padding-right: 60px;
+
+}
+
+.catalog a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px dotted black;
+    font-size: 20px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: 0 auto;
+    background-color: 	#8068B6;
+}
+
+.product {
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 5px double 				
+#30166B;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #6B4BB6;
+    position: relative;
+}
+
+.product:hover{
+    box-shadow: 0 20px 15px 0 #f54ed9;
+    top: 10px;
+}
+.product::before {
+    content: url("/uploads/2021/03/paw-155322_1280%201_0_1614946877.png");
+    width: 30px;
+    height: 30px;
+    display: block;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+
+.product:hover::before {
+    opacity: 1;
+}
+
+footer {
+     margin-top: 15px;
+    background-color: #8068B6;
+    padding: 10px;
+    font-size: 20px;
+    background-image: linear-gradient(to right, rgb(0, 66, 248), rgb(255, 90, 117));
+}
+</style>
